@@ -272,7 +272,6 @@ This project is open source and available under the MIT License.
 
 
 Check out the live demo: 1. Project Console:  https://console.firebase.google.com/project/hu-50d8d/overview
-
                          2. Live Hosting URL: https://hu-50d8d.web.app
 
 
