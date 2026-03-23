@@ -1,6 +1,6 @@
 # AmazonHub - Amazon-like E-Commerce Platform
 
-A modern, full-featured e-commerce application built with React, TypeScript, Tailwind CSS, and Firebase backend.
+A modern, full-featured e-commerce website built with React, TypeScript, Tailwind CSS, and Firebase as backend.
 
 ## Features
 
@@ -115,9 +115,9 @@ src/
 
 ### Deploy to Vercel
 
-1. **Install Vercel CLI**
+1. **Firebase Studio**
    ```bash
-   npm install -g vercel
+   npm run deploy
    ```
 
 2. **Login to Vercel**
@@ -238,7 +238,7 @@ This project is open source and available under the MIT License.
 
 ## Live Demo
 
-Check out the live demo: [https://3mutv4.vercel.app](https://3mutv4.vercel.app)
+Check out the live demo: 
 
 ---
 
