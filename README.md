@@ -2,7 +2,8 @@
 
 A modern, full-featured e-commerce website built with React, TypeScript, Tailwind CSS, and Firebase as backend.
 
-## Features
+
+## Features:
 
 ### Core Functionality
 - **Product Catalog**: Browse and search through a wide range of products
@@ -15,6 +16,7 @@ A modern, full-featured e-commerce website built with React, TypeScript, Tailwin
 - **Search**: Full-text search across product names and descriptions
 - **Responsive Design**: Fully responsive on mobile, tablet, and desktop
 
+
 ### Design & UX
 - **Modern UI**: Clean, professional design with gradients and smooth animations
 - **Framer Motion**: Beautiful page transitions and micro-interactions
@@ -22,6 +24,7 @@ A modern, full-featured e-commerce website built with React, TypeScript, Tailwin
 - **Color Scheme**: Premium dark navy with amber/orange accents
 - **Glassmorphism**: Frosted glass effects on cards and modals
 - **Hover Effects**: Engaging hover states and transitions
+
 
 ##  Tech Stack
 
@@ -33,6 +36,7 @@ A modern, full-featured e-commerce website built with React, TypeScript, Tailwin
 - **Backend**: Firebase (Authentication, Firestore)
 - **State Management**: React Context API
 - **Build Tool**: Vite
+
 
 ## Project Structure
 
@@ -63,6 +67,7 @@ src/
 └── index.css           # Global styles
 ```
 
+
 ## Setup Instructions
 
 ### Prerequisites
@@ -70,20 +75,35 @@ src/
 - npm or yarn package manager
 - Firebase account (for backend features)
 
-### Installation
+
+### Follow the installation process below:
 
 1. **Clone the repository**
    ```bash
    git clone <repository-url>
-   cd shophub
+   cd AmazonHub
    ```
 
-2. **Install dependencies**
+2. **Install dependencies of node js**
    ```bash
    npm install
    ```
+3. **Verify the installation of node js**
+   ```bash
+   1. node -v
+   2. npm -v
+   ```
 
-3. **Set up Firebase**
+4. **Run the development server as localhost to test the development in browser**
+   ```bash
+   npm run dev
+   ```
+
+5. **Open your browser**
+   Navigate to `http://localhost:5173`
+
+
+6. **Set up Firebase**
    
    a. Create a Firebase project at [console.firebase.google.com](https://console.firebase.google.com/)
    
@@ -103,32 +123,36 @@ src/
    VITE_FIREBASE_APP_ID=your_app_id
    ```
 
-4. **Run the development server**
-   ```bash
-   npm run dev
-   ```
-
-5. **Open your browser**
-   Navigate to `http://localhost:5173`
-
 ##  Deployment
 
-### Deploy to Vercel
+### Deploy to Firebase
 
-1. **Firebase Studio**
+1. **Install Globally**
    ```bash
-   npm run deploy
+   npm install -g firebase-tools
    ```
 
-2. **Login to Vercel**
+2. **Verify and Check installation version**
    ```bash
-   vercel login
+   firebase --version
    ```
 
-3. **Deploy**
+3. **Login to Firebase**
    ```bash
-   vercel --prod
+   firebase login
    ```
+
+4. **Create a Firebase Project**
+   
+
+5. **Initialize Firebase in Your Project**
+   ```bash
+   cd your-project-folder
+   ```
+   ```bash
+   firebase init
+   ```
+
 
 ### Build for Production
 
@@ -136,7 +160,15 @@ src/
 npm run build
 ```
 
-The built files will be in the `dist/` directory.
+### Deploy to Firebase
+
+   ```bash
+   npm run deploy
+   ```
+
+
+>> The built files will be in the `dist/` directory.
+
 
 ## Pages & Routes
 
@@ -238,7 +270,15 @@ This project is open source and available under the MIT License.
 
 ## Live Demo
 
-Check out the live demo: 
+
+Check out the live demo: 1. Project Console:  https://console.firebase.google.com/project/hu-50d8d/overview
+
+                         2. Live Hosting URL: https://hu-50d8d.web.app
+
+
+The AmazonHub, an e-commerce platform developed to deliver a seamless and efficient online shopping experience.
+
+Your feedback and insights would be highly valuable as we continue to refine and enhance the platform.
 
 ---
 
